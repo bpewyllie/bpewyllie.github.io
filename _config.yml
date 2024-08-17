@@ -18,7 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Brady Wyllie's GitHub site
+title: bpewy
+author: Brady Wyllie
 email: bpewyllie@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Random thoughts and data

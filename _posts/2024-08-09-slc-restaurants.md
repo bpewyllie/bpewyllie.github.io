@@ -2,7 +2,7 @@
 layout: post
 title: "The best (and worst) restaurants in Salt Lake City, according to Google Maps"
 date: 2024-08-09
-categories: jekyll update
+categories: GoogleMaps
 ---
 
 When I am looking for new places to eat, I usually rely on Google Maps. Over time, I've noticed a couple of flaws with this approach:
@@ -81,20 +81,10 @@ I haven't been to any of these places so let me know if the numbers lie!
 
 ***
 
-# Ratings Maps
+# Map
 
-Here are some maps I put together of the reviews. I only plotted restaurants with at least 10 reviews and an average rating of 4 or higher, giving 678 locations total. The sizes of the points represent relative popularity (number of reviews) and the colors represent quality (average review).
+Here is an interactive map of the restaurants. I only plotted restaurants with at least 10 reviews and an average rating of 4 or higher, giving 678 locations total. The sizes of the points represent relative popularity (number of reviews) and the colors represent quality (average review).
 
-[Central 9th + State](https://preview.redd.it/bd6sjc0hjnhd1.png?width=3240&format=png&auto=webp&s=d2eb6956c7ba308ce82336f8584c6d0e05a27bdf)
-
-[Downtown](https://preview.redd.it/gz2k0d0hjnhd1.png?width=3240&format=png&auto=webp&s=e76ff393d0311e79d0c9aaf1b51a5a7e979dab44)
-
-[Liberty + 9th&9th](https://preview.redd.it/qa08em0hjnhd1.png?width=3240&format=png&auto=webp&s=cd82a226686d4aa849a908e0e7374d210a2b2b02)
-
-[All SLC](https://preview.redd.it/0si7cc0hjnhd1.png?width=3240&format=png&auto=webp&s=e017340d273945c947931b186becf9a834b54882)
-
-[Sugar House](https://preview.redd.it/3uy9x81hjnhd1.png?width=3240&format=png&auto=webp&s=c0113bb343dbf7a406d93843d91b08b4fbb6ba2e)
-
-[Rose Park + Fairpark](https://preview.redd.it/auqt8h0hjnhd1.png?width=3240&format=png&auto=webp&s=350f3e78fd74795f7d7fee7e2523a7a4372dde67)
+{% include slc_restaurants.html %}
 
 ***
