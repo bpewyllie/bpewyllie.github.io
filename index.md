@@ -4,3 +4,9 @@
 
 layout: home
 ---
+
+Welcome to my site, bpewy.
+
+I post data, random thoughts, and random thoughts about data sometimes.
+
+Thanks for reading.

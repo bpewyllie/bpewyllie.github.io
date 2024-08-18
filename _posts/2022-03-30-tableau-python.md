@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Extracting and manipulating metadata in Tableau workbooks"
+title: "Manipulating metadata in Tableau workbooks"
 date: 2022-03-30
 categories:
 ---

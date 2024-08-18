@@ -23,9 +23,23 @@ Keep reading for some stats and maps of the results.
 
 If you trust Google Maps reviews, you can basically discard any options with a sub-4 rating. Anyone know how the reviews are in other cities? I'm wondering if SLC suffers from some sort of ratings inflation that isn't as apparent in cities with a longer-standing food culture.
 
+## Methods
+
+The general approach to obtain the data consists of requesting data from the Google Maps Places API - Nearby Search. This endpoint allows you to search for a keyword or type of establishment near a starting point. Up to 60 results can be achieved per search, though this requires pagination (only 20 results per page). The locations are ordered by Google Maps' own internal ranking system, which considers distance and popularity in its algorithm. Thus, to get a comprehensive list of restaurants in a city, we have to search many times, and even this approach does not guarantee comprehensiveness.
+
+The code I wrote for this exercise allows a user to create a grid of points to search around. See below for a trivial example of such a grid, overlaid atop Salt Lake City.
+
+![Salt Lake City Grid](/assets/images/slc_restaurants_grid.png)
+
+Then, given the grid, the code submits GET requests to the Maps endpoint for each point. Clustering the points of the grid more densely leads to greater completeness in the final dataset, but also leads to greater inefficiency in the code execution as most locations are duplicates.
+
+The code repository is available [here](https://github.com/bpewyllie/google_reviews_mapper). 
+
 ***
 
-# Top Rated Restaurants (100+ ratings in SLC Proper)
+# Conclusions
+
+## Top Rated Restaurants (100+ ratings in SLC Proper)
 
 * **Kafe Mamai** downtown, with a 5 star rating over 204 reviews
 * **The 14 Peaks** on State St, with a 5 star rating over 262 reviews
@@ -39,7 +53,7 @@ Another observation: most of the top rated restaurants are cheap. It isn't until
 
 ***
 
-# Worst Rated Restaurants (100+ ratings in SLC Proper; excludes airport locations)
+## Worst Rated Restaurants (100+ ratings in SLC Proper; excludes airport locations)
 
 * **Domino's Pizza** on 600 N, with a 2.7 rating over 877 reviews
 * **A&W Restaurant** on 4th South, with a 2.9 rating over 109 reviews
@@ -57,7 +71,7 @@ Many of the worst rated restaurants fall into at least one of these categories:
 
 ***
 
-# Most "Popular" Restaurants (based on number of ratings)
+## Most "Popular" Restaurants (based on number of ratings)
 
 1. **Mumbai House** (4.9; 13,106)
 2. **Red Iguana** (4.6; 9,241) and **Red Iguana 2** (4.6, 7,884)
@@ -69,7 +83,7 @@ Not surprised to see **Red Iguana** dominating (when you add their two locations
 
 ***
 
-# Hand-Picked Hidden Gems (interesting, highly rated restaurants with <=50 reviews)
+## Hand-Picked Hidden Gems (interesting, highly rated restaurants with <=50 reviews)
 
 * **El Zamorano** (5.0, 25) - Poplar Grove Mexican restaurant
 * **Fresh Sushi** (4.9, 37) - inside the University of Utah Hospital
