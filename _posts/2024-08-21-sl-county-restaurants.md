@@ -37,51 +37,35 @@ The code repository is available [here](https://github.com/bpewyllie/google_revi
 
 # Conclusions
 
-## Top Rated Restaurants (100+ ratings)
+Rather than present the data as a single unit, I divided the county into four quadrants (Southwest, Southeast, Northwest, Northeast), roughly defined by I-215 horizontally and I-15 vertically, to find out the top restaurants by region.
 
-* **Kafe Mamai** downtown, with a 5 star rating over 204 reviews
-* **The 14 Peaks** on State St, with a 5 star rating over 262 reviews
-* **Parfe Diem Pudding Parfaits** in Sugar House, with a 5 star rating over 140 reviews
-* **Mumbai House** on Parleys, with a 4.9 rating over 13,106 reviews
-* **Matcha Cafe Kyoto** in Sugar House, with a 4.9 rating over 214 reviews
+## Southwest
 
-Given its overwhelming popularity and high rating, I think it's safe to crown **Mumbai House** as the champ of SLC Restaurants.
+### Top Restaurants (>100 reviews)
 
-Another observation: most of the top rated restaurants are cheap. It isn't until *81*^(st) place out of 887 restaurants that we see one with a triple dollar sign rating ($$$) or more--**Matteo Ristorante Italiano** (4.8 over 285 reviews). Most of the top restaurants are food trucks or small mom and pop restaurants that serve more casual crowds.
+1.
+2.
+3.
+4.
+5.
 
-***
+## Southeast
 
-## Worst Rated Restaurants (100+ ratings in SLC Proper; excludes airport locations)
+### Top Restaurants (>100 reviews)
 
-* **Domino's Pizza** on 600 N, with a 2.7 rating over 877 reviews
-* **A&W Restaurant** on 4th South, with a 2.9 rating over 109 reviews
-* **Homecoming Southern Kitchen & Bar** downtown, with a 3.0 rating over 197 reviews
-* **KFC** in Sugar House, with a 3.0 rating over 426 reviews
-* **Fried Rice Express** on 4th South and 7th East, with a 3.0 rating over 380 reviews
+## Northeast
 
-Many of the worst rated restaurants fall into at least one of these categories:
+### Top Restaurants (>100 reviews)
 
-1. Is a Fast Food Chain
-2. Is in the Airport
-3. Is in the City Creek Food Court
+## Northwest
 
-**Homecoming Southern Kitchen** stands out as different from the rest, and coincidentally it is owned by the same group that owns other low rated restaurants **Fat Jack's Tap House** (3.8 rating over 897 reviews) and **Christopher's Prime** (4.0 rating over 851 reviews). Anyone who has eaten at any of these restaurants want to chime in?
+### Top Restaurants (>100 reviews)
+
+## 
 
 ***
 
-## Most "Popular" Restaurants (based on number of ratings)
-
-1. **Mumbai House** (4.9; 13,106)
-2. **Red Iguana** (4.6; 9,241) and **Red Iguana 2** (4.6, 7,884)
-3. **Lucky 13** (4.6; 7,780)
-4. **In-N-Out Burger** (4.5; 6,911) in WVC
-5. **The Cheesecake Factory** (4.0, 6,034)
-
-Not surprised to see **Red Iguana** dominating (when you add their two locations together). I was surprised to see **In-N-Out** so high up, but this could be due to there being a lack of In-N-Outs near SLC proper.
-
-***
-
-## (NEW) The Top Chain Restaurants in SL County (highest average ratings for restaurants with >1 location)
+## The Top Chain Restaurants in SL County (highest average ratings for restaurants with >1 location)
 
 ## Worst Chain Restaurants in SL County
 
