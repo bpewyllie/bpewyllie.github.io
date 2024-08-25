@@ -1,36 +1,33 @@
 ---
 layout: post
-title: "The best (and worst) restaurants in Salt Lake City, according to Google Maps"
-date: 2024-08-09
+title: "The best (and worst) restaurants in the rest of the Wasatch Front, according to Google Maps"
+date: 2024-08-21
 categories: GoogleMaps
-published: True
+published: False
 ---
 
-When I am looking for new places to eat, I usually rely on Google Maps. Over time, I've noticed a couple of flaws with this approach:
-
-1. *Google doesn't show you everything in the map.* You can search for "restaurants" in an area and some will be hidden even at the closest zoom level unless you search for the place by its exact name. This makes it hard to find new places to eat at until they're already popular. Grabbing the data directly from the source allows me to form more comprehensive rankings.
-2. *People are very hesitant to give places anything less than a 5 star rating.* I had a hunch that the "true" rating scale was from 4 to 5, as it's rare for a restaurant to be less than a 4, so I wanted to see how accurate that was.
-
-Keep reading for some stats and maps of the results.
+This post is a sequel to my guide to [The best (and worst) restaurants in Salt Lake City, according to Google Maps]({% post_url 2024-08-09-slc-restaurants %}). Read on for data, maps, and the top (and bottom) rated restaurants along the Wasatch Front.
 
 ***
 
 # Dataset
 
-* I grabbed this data from the Google Maps Places API on August 6, 2024. It roughly follows SLC Boundaries, but reaches a little into southern suburbs and WVC. This gives **887 total restaurant locations**.
+* I grabbed this data from the Google Maps Places API over the course of the past month. It roughly follows the boundaries of Salt Lake, Utah, Davis, and Weber Counties. This gives **887 total restaurant locations**.
 * **79.5%** of the restaurants in the dataset have a **4.0 average rating or higher**
 * **50.6%** have a **4.5 rating or higher**
 * **53.2%** have a rating between **4.2 and 4.6**
 
 If you trust Google Maps reviews, you can basically discard any options with a sub-4 rating. Anyone know how the reviews are in other cities? I'm wondering if SLC suffers from some sort of ratings inflation that isn't as apparent in cities with a longer-standing food culture.
 
+*Disclaimer: this dataset is surely not comprehensive; let me know if a restaurant you enjoy (or hate) is missing from the list!*
+
 ## Methods
 
 The general approach to obtain the data consists of requesting data from the Google Maps Places API - Nearby Search. This endpoint allows you to search for a keyword or type of establishment near a starting point. Up to 60 results can be achieved per search, though this requires pagination (only 20 results per page). The locations are ordered by Google Maps' own internal ranking system, which considers distance and popularity in its algorithm. Thus, to get a comprehensive list of restaurants in a city, we have to search many times, and even this approach does not guarantee comprehensiveness.
 
-The code I wrote for this exercise allows a user to create a grid of points to search around. See below for a trivial example of such a grid, overlaid atop Salt Lake City.
+The code I wrote for this exercise allows a user to create a grid of points to search around. See below for a trivial example of such a grid, overlaid atop Salt Lake County.
 
-![Salt Lake City Grid](/assets/images/slc_restaurants_grid.png)
+![Salt Lake County Grid](/assets/images/slc_restaurants_grid.png)
 
 Then, given the grid, the code submits GET requests to the Maps endpoint for each point. Clustering the points of the grid more densely leads to greater completeness in the final dataset, but also leads to greater inefficiency in the code execution as most locations are duplicates.
 
@@ -40,7 +37,7 @@ The code repository is available [here](https://github.com/bpewyllie/google_revi
 
 # Conclusions
 
-## Top Rated Restaurants (100+ ratings in SLC Proper)
+## Top Rated Restaurants (100+ ratings)
 
 * **Kafe Mamai** downtown, with a 5 star rating over 204 reviews
 * **The 14 Peaks** on State St, with a 5 star rating over 262 reviews
@@ -84,15 +81,9 @@ Not surprised to see **Red Iguana** dominating (when you add their two locations
 
 ***
 
-## Hand-Picked Hidden Gems (interesting, highly rated restaurants with <=50 reviews)
+## (NEW) The Top Chain Restaurants in SL County (highest average ratings for restaurants with >1 location)
 
-* **El Zamorano** (5.0, 25) - Poplar Grove Mexican restaurant
-* **Fresh Sushi** (4.9, 37) - inside the University of Utah Hospital
-* **Marcato Kitchen** (4.9, 49) - serving stromboli inside Square Kitchen
-* **The GM Guy Cafe** (4.7, 35) - good vibes and diner fare inside a car dealership
-* **Janis Filipino Cuisine** (4.6, 50) - located inside **Salt Lake City Eats** off North Temple, a kitchen space for to-go meals
-
-I haven't been to any of these places so let me know if the numbers lie!
+## Worst Chain Restaurants in SL County
 
 ***
 

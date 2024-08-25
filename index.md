@@ -5,7 +5,7 @@
 layout: home
 ---
 
-Welcome to my site, bpewy.
+Welcome to my site.
 
 I post data, random thoughts, and random thoughts about data sometimes.
 
