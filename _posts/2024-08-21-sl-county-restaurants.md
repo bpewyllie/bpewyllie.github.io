@@ -33,28 +33,33 @@ The code repository is available [here](https://github.com/bpewyllie/google_revi
 
 # Conclusions
 
-Rather than present the data as a single unit, I divided the county into four quadrants (Southwest, Southeast, Northwest, Northeast), roughly defined by the I-215 - I-15 interchange.
+Rather than present the data as a single unit, I divided the county into four quadrants (Southwest, Southeast, Northwest, Northeast), roughly defined by the I-215 - I-15 interchange. Only non-chain restaurants are included in these sections.
 
 ## Southwest - West Jordan, South Jordan, Herriman, Riverton, Bluffdale, and western Midvale
 
 ### Top Rated Restaurants (>100 reviews)
 
-1. Tacos El Pariente Main Office - Midvale (5.0, 131)
-2. Hruska's Kolaches - West Jordan (4.9, 320)
-3. Rio Acai - South Jordan (4.9, 428)
-4. Aunty's Hawaiian Kitchen - Riverton (4.8, 362)
-5. Bombay Garden - Cuisine of India - West Jordan (4.8, 4648)
+1. Hruska's Kolaches - West Jordan (4.9, 320)
+2. Rio Acai - South Jordan (4.9, 428)
+3. Aunty's Hawaiian Kitchen - Riverton (4.8, 362)
+4. Bombay Garden - Cuisine of India - West Jordan (4.8, 4648)
+5. Dee Garden Thai Kitchen - West Jordan (4.8, 439)
 
 ### Most Popular Restaurants
 
-0. Topgolf - Midvale (4.4, 5383) (*while technically they serve food, I don't think this should really count*)
 1. Bombay Garden - Cuisine of India - West Jordan (4.8, 4648)
-2. Texas Roadhouse - South Jordan (4.4, 4531)
-3. Black Bear Diner - West Jordan (4.0, 4227)
-4. In-N-Out Burger - West Jordan (4.5, 3547)
-5. Olive Garden - South Jordan (4.2, 3421)
+2. Bawarchi - South Jordan (4.6, 2307)
+3. Puerto Vallarta Mexican Grill and Cantina - West Jordan (4.4, 1994)
+4. Lucky's Iron Door Roadhouse - West Jordan (4.3, 1772)
+5. Tacos Lopez Tijuana Style - West Jordan (4.5, 1767)
 
-### Other Noteworthy Picks
+### Lesser Known Picks (<200 reviews)
+
+1. Katsu City - West Jordan (4.9, 52) - *korean casual*
+2. Bocados Venezuelan Food - South Jordan (4.7, 54) - *food truck empanadas*
+3. Spice Bay - West Jordan (4.8, 123) - *casual Indian*
+4. Arigato Sushi - West Jordan (4.7, 101) - *unique sushi rolls*
+5. Sukihana - South Jordan (4.7, 170) - *sushi and other Japanese dishes*
 
 ## Southeast - Draper, Sandy, Midvale, Cottonwood Heights, and southern Murray
 
@@ -68,13 +73,19 @@ Rather than present the data as a single unit, I divided the county into four qu
 
 ### Most Popular Restaurants
 
-1. The Cheesecake Factory - Murray (4.0, 6104)
-2. Texas Roadhouse - Sandy (4.3, 4580)
-3. Golden Corral Buffet & Grill - Midvale (4272, 3.9)
-4. In-N-Out Burger - Midvale (4.5, 4119)
-5. In-N-Out Burger - Draper (4.5, 4059)
+1. Belgian Waffle & Omelet Inn - Midvale (4.0, 3574)
+2. Midvale Mining Cafe & Catering - Midvale (4.3, 3566)
+3. Lone Star Taqueria - Cottonwood Heights (4.6, 3377)
+4. Yi Sushi Bistro - Midvale (4.3, 2280)
+5. The Philadelphian - Sandy (4.5, 2197)
 
-### Other Noteworthy Picks
+### Lesser Known Picks (<200 reviews)
+
+1. Las Ellie's Foodtruck - Cottonwood Heights (4.9, 59) - *mexican food truck specializing in tortas*
+2. Tacos El Calentano - Sandy (4.9, 88) - *street tacos*
+3. The Peppered Vine - Sandy (4.9, 72) - *fresh sandwiches and salads, plus daily specials*
+4. Supremo Pizza - Midvale (4.7, 183) - *new york style pizza*
+5. Susy's Kitchen - Midvale (4.7, 134) - *laid back, southern italian*
 
 ## Northeast - SLC, Murray, Millcreek, Holladay, South Salt Lake
 
@@ -84,20 +95,25 @@ Rather than present the data as a single unit, I divided the county into four qu
 
 1. Blatch's BBQ - SLC (5.0, 224)
 2. Bombay Palace - Murray (4.9, 642)
-2. 9-UP Night Market Food Trucket - Millcreek (4.9, 110)
-3. Aranya Thai Kitchen - SLC (4.9, 173)
-4. 
-5.
+3. 9-UP Night Market Food Trucket - Millcreek (4.9, 110)
+4. Aranya Thai Kitchen - SLC (4.9, 173)
+5. Bhansa Ghar - SLC (4.9, 735)
 
 ### Most Popular Restaurants
 
-1. The Cheesecake Factory - SLC (4.0, 6034)
+1. Mumbai House - SLC (4.9, 13312)
 2. Paradise Buffet - Murray (4.2, 5420)
-3. Rodizio Brazilian Steakhouse - SLC (4.5, 5293)
-4. Ruth's Diner - Emigration Canyon (4.6, 5268)
-5. Crown Burgers - 118 N 300 W SLC (4.4, 4911)
+3. Ruth's Diner - Emigration Canyon (4.6, 5268)
+4. The Park Cafe - SLC (4.7, 3798)
+5. The Dodo Restaurant - SLC (4.4, 3540)
 
 ### Other Noteworthy Picks
+
+1. Early Owl - SLC (5.0, 39) - *recently opened brunch spot*
+2. Encanto Restaurant - SLC (4.9, 33) - *colombian food with nice vibes*
+3. Vegan Daddy Meats - SLC (4.9, 98) - *the plant "butcher"*
+4. Uncle Hot Pot & All you can eat - SLC (4.8, 110) - *extravagant seafood hot pot*
+5. Drunken Kitchen - SLC (4.7, 84) - *taiwanese and chinese classics*
 
 ## Northwest - SLC, WVC, Murray, Taylorsville, Magna, Kearns, and western Millcreek
 
@@ -106,18 +122,24 @@ Rather than present the data as a single unit, I divided the county into four qu
 1. Protein Cheers Nutrition - WVC (5.0, 120)
 2. Victor's pizza co - Millcreek (4.9, 633)
 3. Aroon Thai Kitchen - Murray (4.9, 562)
-4. Cupbop Korean BBQ - Taylorsville (4.9, 119)
-5. El Comal - Magna (4.9, 115)
+4. El Comal - Magna (4.9, 115)
+5. Chang's Food - WVC (4.8, 1170)
 
 ### Most Popular Restaurants
 
-1. Red Iguana - SLC (4.6, 9246)
-2. Red Iguana 2 - SLC (4.6, 7892)
-3. Texas Roadhouse - Taylorsville (4.4, 7623)
-4. In-N-Out Burger - WVC (4.5, 6956)
-5. Cracker Barrel Old Country Store - WVC (4.2, 5408)
+1. Red Iguana + Red Iguana 2 - SLC (4.6, 9246 + 7892)
+2. King Buffet - Taylorsville (4.0, 4455)
+3. El Paisa Grill - WVC (4.2, 3248)
+4. La Casa Del Tamal - WVC (4.6, 2390)
+5. Ogie's Cafe - WVC (4.6, 2372)
 
 ### Other Noteworthy Picks
+
+1. Jade's Corner Deli LLC - Taylorsville (5.0, 75) - *vietnamese food in an airy atmosphere*
+2. Habanero Express - South Salt Lake (4.9, 47) - *mexican classics*
+3. Kika's Kitchen - WVC (4.9, 30) - *gigantic burritos*
+4. 
+5.
 
 ***
 
