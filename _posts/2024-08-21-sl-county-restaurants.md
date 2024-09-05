@@ -3,7 +3,7 @@ layout: post
 title: "The best (and worst) restaurants in the rest of Salt Lake County, according to Google Maps"
 date: 2024-08-21
 categories: GoogleMaps
-published: False
+published: True
 ---
 
 This post is a sequel to my guide to [The best (and worst) restaurants in Salt Lake City, according to Google Maps]({% post_url 2024-08-09-slc-restaurants %}). Read on for data, maps, and the top restaurants by region of the valley.
@@ -138,20 +138,48 @@ Rather than present the data as a single unit, I divided the county into four qu
 1. Jade's Corner Deli LLC - Taylorsville (5.0, 75) - *vietnamese food in an airy atmosphere*
 2. Habanero Express - South Salt Lake (4.9, 47) - *mexican classics*
 3. Kika's Kitchen - WVC (4.9, 30) - *gigantic burritos*
-4. 
-5.
+4. Elko Cafe - SLC (4.8, 39) - *chinese dishes and sushi rolls*
+5. Namash Swahili Cuisine - SLC (4.9, 53) - *food truck operating out of Square Kitchen*
 
 ***
 
-## The Top Chain Restaurants in SL County (highest average ratings for restaurants with >1 location)
+## The Top Chain Restaurants in SL County (highest median ratings for restaurants with at least 5 locations)
+
+1. Cupbop - Korean BBQ in a Cup (4.7 median rating; 12 locations)
+2. In-N-Out Burger (4.5 median rating; 5 locations)
+3. Swig (4.5 median rating; 13 locations)
+4. Mo' Bettahs Hawaiian Style Food (4.45 median rating; 6 locations)
+5. Zao Asian Cafe (4.5 median rating; 9 locations)
 
 ## Worst Chain Restaurants in SL County
 
 ***
 
+1. It's Just Wings (Chili's [ghost restaurant](https://en.wikipedia.org/wiki/Virtual_restaurant)) (2.9 median rating; 5 locations)
+2. Pizza Hut (3.0 median rating; 28 locations - not including Pizza Hut Express)
+3. KFC (3.05 median rating; 14 locations)
+4. Chipotle Mexican Restaurant (3.3 median rating;  11 locations)
+5. A&W Restaurant (3.4 median rating; 7 locations)
+
+## Most Popular Chain Restaurants in SL County (ranked by number of total reviews across all locations)
+
+1. McDonald's (73,059 reviews; 40 locations)
+2. Cafe Rio Fresh Modern Mexican (28,194 reviews; 20 locations)
+3. Wendy's (27,432 reviews; 28 locations)
+4. Chick-fil-A (24,350 reviews; 12 locations)
+5. In-N-Out Burger (21,882 reviews; 5 locations)
+
+## Busiest Chain Restaurants in SL County (ranked by average number of reviews per location)
+
+1. In-N-Out Burger (4,376 average reviews; 5 locations)
+2. Olive Garden Italian Restaurant (3,526 average reviews; 5 locations)
+3. Black Bear Diner (3,321 average reviews; 5 locations)
+4. Apollo Burger (2,675 average reviews; 7 locations)
+5. Buffalo Wild Wings (2,638 average reviews; 5 locations)
+
 # Map
 
-Here is an interactive map of the restaurants. I only plotted restaurants with at least 10 reviews and an average rating of 4 or higher, giving 678 locations total. The sizes of the points represent relative popularity (number of reviews) and the colors represent quality (average review).
+Here is an interactive map of the restaurants. I only plotted restaurants with at least 10 reviews and an average rating of 4 or higher, giving 1,761 locations total. The sizes of the points represent relative popularity (number of reviews) and the colors represent quality (average review).
 
 {% include slc_restaurants.html %}
 
