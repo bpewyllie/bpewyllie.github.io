@@ -1,6 +1,8 @@
 # Ideas for future posts
 
 * Building permit scraper
+* Utah state public salaries
+* Add Utah tab to site?
 * ~~Tableau metadata scraper~~
 * ~~UT billboards and accidents~~
 * ~~SL County health inspections~~
