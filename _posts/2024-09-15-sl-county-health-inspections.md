@@ -2,7 +2,7 @@
 layout: post
 title: "Is ignorance bliss? Salt Lake County restaurant health inspection grades, ranked best to worst."
 date: 2024-09-15
-categories:
+tags: Utah
 published: True
 ---
 

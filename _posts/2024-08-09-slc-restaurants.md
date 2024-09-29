@@ -2,7 +2,7 @@
 layout: post
 title: "The best (and worst) restaurants in Salt Lake City, according to Google Maps"
 date: 2024-08-09
-categories: GoogleMaps
+tags: Utah GoogleMaps
 published: True
 ---
 

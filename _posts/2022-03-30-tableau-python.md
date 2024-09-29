@@ -2,7 +2,7 @@
 layout: post
 title: "Manipulating metadata in Tableau workbooks"
 date: 2022-03-30
-categories:
+tags:
 ---
 
 Say you work in an enterprise with a large number of Tableau workbooks and you need to identify all connections to a particular data source so you can migrate them over to a newer data source and retire the old one. While you're at it, you'd like to make some standard changes across these legacy workbooks so they adhere to an organzational standard theme. *What do you do?*

@@ -2,7 +2,7 @@
 layout: post
 title: "Utah billboards and distracted driving accidents"
 date: 2022-01-26
-categories: Billboards
+tags: Utah
 ---
 
 Billboards are designed to distract drivers. Can we demonstrate how effective they are in the data?

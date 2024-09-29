@@ -2,7 +2,7 @@
 layout: post
 title: "The best (and worst) restaurants in the rest of Salt Lake County, according to Google Maps"
 date: 2024-08-21
-categories: GoogleMaps
+tags: Utah GoogleMaps
 published: True
 ---
 
