@@ -108,7 +108,7 @@ In summary, if you care *solely* about sanitation standards, I'd avoid eating an
 
 1. **King Buffet**, South Salt Lake (0% rating; max score of 266)
 2. **La Frontera**, Millcreek (0%; 240)
-3. **Elko Cafe**, Sandy (0%; 224)
+3. **Eiko Cafe**, Sandy (0%; 224)
 4. **Cafe Thảo Mi**, Taylorsville (0%; 215)
 5. **El Rico Sanguchom D'Chalo**, West Valley City (0%; 213)
 
