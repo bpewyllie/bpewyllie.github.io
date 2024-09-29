@@ -1,7 +1,7 @@
 # Ideas for future posts
 
 * Building permit scraper
-* Utah state public salaries
+* Utah state public salaries - Transparent Utah site
 * Add Utah tab to site?
 * Trax data
 * Reddit data -/r/SaltLakeCity vs /r/Utah
