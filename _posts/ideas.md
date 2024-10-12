@@ -1,19 +1,30 @@
 # Ideas for future posts
 
 * Building permit scraper
+* Car accidents in SLC
+  * https://udps.numetric.net/utah-crash-summary#/?view_id=7
+* Walker Center Weather Tower - colors by day since opening Dec 9, 1912 (do on Dec 9 2024 for 112 yr anniversary)
+  * https://www.weather.gov/documentation/services-web-api
+  * https://www.climate.gov/maps-data/dataset/past-weather-zip-code-data-table
+
 * Utah state public salaries - Transparent Utah site
-* Add Utah tab to site?
 * Trax data
 * Reddit data -/r/SaltLakeCity vs /r/Utah
 * IMDb data - movie locations
-* Car accidents in SLC
 * Maxx preps high school football stats
 * Utah real estate listings
+* Local coffee roasters ethics scores - fob (free on board) rankings
 * Politics - opensecrets
+  * follow the money
+  * cost to buy a local politican
+  
 * Tools to try:
   * Streamlit
   * Power BI
   * Dagster
+  * QGIS / ArcGIS
+* Website layout:
+  * Food / Geography / Politics / Data
 
 # Scrapped ideas
 
