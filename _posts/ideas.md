@@ -4,6 +4,9 @@
 * Car accidents in SLC
   * https://udps.numetric.net/utah-crash-summary#/?view_id=7
   * merge with traffic data to get crashes per mile driven
+  * top 10 most dangerous intersections last year
+  * cities with the most crashes
+  * use qgis?
 * Walker Center Weather Tower - colors by day since opening Dec 9, 1912 (do on Dec 9 2024 for 112 yr anniversary)
   * https://www.weather.gov/documentation/services-web-api
   * https://www.climate.gov/maps-data/dataset/past-weather-zip-code-data-table
@@ -17,6 +20,9 @@
     * Other cities that listened to your top artists
     * Measure the overlap in the overall top chart with the USA overall top chart
 
+* Strava api
+* Alltrails api
+* Grocery store prices
 * Utah state public salaries - Transparent Utah site
 * Trax data
 * Reddit data -/r/SaltLakeCity vs /r/Utah
