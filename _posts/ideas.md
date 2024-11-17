@@ -1,12 +1,6 @@
 # Ideas for future posts
 
 * Building permit scraper
-* Car accidents in SLC
-  * https://udps.numetric.net/utah-crash-summary#/?view_id=7
-  * merge with traffic data to get crashes per mile driven
-  * top 10 most dangerous intersections last year
-  * cities with the most crashes
-  * use qgis?
 * Walker Center Weather Tower - colors by day since opening Dec 9, 1912 (do on Dec 9 2024 for 112 yr anniversary)
   * https://www.weather.gov/documentation/services-web-api
   * https://www.climate.gov/maps-data/dataset/past-weather-zip-code-data-table
@@ -19,7 +13,7 @@
     * Top songs
     * Other cities that listened to your top artists
     * Measure the overlap in the overall top chart with the USA overall top chart
-
+* Utah license plate popularity
 * Strava api
 * Alltrails api
 * Grocery store prices
@@ -57,6 +51,4 @@
 * ~~UT billboards and accidents~~
 * ~~SL County health inspections~~
 * ~~Google maps series~~
-  * ~~SLC Restaurants - add a methods section~~
-  * ~~SL County restaurants - add detail on chain restaurants~~
-  * ~~Combine review data with inspection data for quality/health/popularity matrix - too difficult to join data at this time~~
+* ~~Car accidents in SLC~~
