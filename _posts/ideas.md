@@ -4,15 +4,6 @@
 * Walker Center Weather Tower - colors by day since opening Dec 9, 1912 (do on Dec 9 2024 for 112 yr anniversary)
   * https://www.weather.gov/documentation/services-web-api
   * https://www.climate.gov/maps-data/dataset/past-weather-zip-code-data-table
-* Spotify Wrapped SLC
-  * Title: In honor of Spotify Wrapped 2024, I made a version for SLC using local listening data
-  * Use local buzz charts rather than total charts
-  * Make image cards with similar theme to Spotify Wrapped
-    * Most listened to artists (artists with the most "points" based on chart position by week)
-    * Top genres
-    * Top songs
-    * Other cities that listened to your top artists
-    * Measure the overlap in the overall top chart with the USA overall top chart
 * Utah license plate popularity
 * Strava api
 * Alltrails api
@@ -52,3 +43,4 @@
 * ~~SL County health inspections~~
 * ~~Google maps series~~
 * ~~Car accidents in SLC~~
+* ~~Spotify Wrapped SLC~~
