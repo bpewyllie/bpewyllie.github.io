@@ -15,6 +15,8 @@
 * Maxx preps high school football stats
 * Utah real estate listings
 * Local coffee roasters ethics scores - fob (free on board) rankings
+* NFL/CFB data
+  * distribution of all rb carries by player-season
 * Politics - opensecrets
   * follow the money
   * cost to buy a local politican
