@@ -20,6 +20,7 @@
 * Politics - opensecrets
   * follow the money
   * cost to buy a local politican
+* Bang card game simulator - probability of winning given each role
 
 * Tools to try:
   * Streamlit
