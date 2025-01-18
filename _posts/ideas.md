@@ -8,6 +8,7 @@
 * Strava api
 * Alltrails api
 * Grocery store prices
+  * Just do dozen egg prices for unique grocer chains downtown - Harmon's, Smith's, Walmart, Target, Dan's, Macey's, Fresh Market, Whole Foods, Sprouts, Trader Joe's
 * Utah state public salaries - Transparent Utah site
 * Trax data
 * Reddit data -/r/SaltLakeCity vs /r/Utah
