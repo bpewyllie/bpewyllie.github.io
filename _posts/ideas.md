@@ -5,6 +5,7 @@
   * Population density increased/decreased to match other cities
   * Road width decreased to match other cities
 * Apartments rating scraper - copy process for Google Maps restaurant reviews
+* SL Bees attendance tracker
 * Walker Center Weather Tower - colors by day since opening Dec 9, 1912 (do on Dec 9 2024 for 112 yr anniversary)
   * https://www.weather.gov/documentation/services-web-api
   * https://www.climate.gov/maps-data/dataset/past-weather-zip-code-data-table
