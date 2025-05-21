@@ -1,6 +1,13 @@
 # Ideas for future posts
 
 * Building permit scraper
+* SLC Grid System Exploration
+  * Why does the grid stop where it does? Why are all the other cities in Utah on different grids?
+  * Map of current boundaries (what are the extreme points?)
+  * Map of all gridded streets in the state
+  * Most extreme grid number in Utah (largest grid value)
+  * Theoretical map of a grid of SLC applied to the entire state, country, and world
+  * Map of Utah with different grid sizes (Portland grids, SF grids, etc.)
 * Salt Lake City map if... (show current county boundary in dotted line, new region shaded, over satelite map)
   * Population density increased/decreased to match other cities
   * Road width decreased to match other cities
