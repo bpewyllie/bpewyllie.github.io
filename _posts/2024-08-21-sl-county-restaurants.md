@@ -89,7 +89,7 @@ Rather than present the data as a single unit, I divided the county into four qu
 
 ## Northeast - SLC, Murray, Millcreek, Holladay, South Salt Lake
 
-[See my post on SLC specifically for more detail](({% post_url 2024-08-09-slc-restaurants %})). Rather than listing the same restaurants, here I'll include places either that I missed or were outside of my previous sample's search radius.
+[See my post on SLC specifically for more detail]({% post_url 2024-08-09-slc-restaurants %}). Rather than listing the same restaurants, here I'll include places either that I missed or were outside of my previous sample's search radius.
 
 ### Top Restaurants (>100 reviews)
 
